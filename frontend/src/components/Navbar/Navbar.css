@@ -7,6 +7,7 @@
 
 .navbar .logo {
     width: 150px;
+    height: 50px;
 }
 
 .navbar-menu {
@@ -135,6 +136,10 @@
 
 .nav-profile-dropdown li:hover {
     color: rgb(240, 44, 9);
+}
+
+.search-icon {
+    cursor: pointer;
 }
 
 @media (max-width:750px) {
