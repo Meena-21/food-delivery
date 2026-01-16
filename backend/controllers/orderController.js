@@ -2,7 +2,7 @@ import orderModel from "../models/orderModel.js";
 import userModel from '../models/userModel.js'
 
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://food-delivery-frontend-7yho.onrender.com";
 
   try {
     // 1. Create Order (payment is FALSE by default)
