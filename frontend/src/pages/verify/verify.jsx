@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { StoreContext } from "../../contest/StoreContext";
-import './Verify.css'
+import './verify.css'
 
 const Verify = () => {
   const navigate = useNavigate();
