@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 
 import MyOrders from './pages/MyOrders/MyOrders'
-import verify from "./pages/verify/verify";
+import Verify from "./pages/verify/verify";
 
 
 
