@@ -142,6 +142,18 @@
     cursor: pointer;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* important */
+}
+
+.parent {
+    overflow: visible;
+}
+
+
 @media (max-width:750px) {
     
     .navbar-menu{
