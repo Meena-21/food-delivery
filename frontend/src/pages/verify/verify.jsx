@@ -29,7 +29,7 @@ const Verify = () => {
         // ✅ REDIRECT TO MAIN PAGE AFTER 3 SECONDS
         setTimeout(() => {
           navigate("/myorders", { replace: true });
-        }, 3000);
+        }, 2000);
 
       } catch (error) {
         console.log(error);
